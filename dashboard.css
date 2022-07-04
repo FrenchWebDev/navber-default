@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+div.navbar{
+    width: 100%;
+    background-color: rgba(5, 4, 4, 0.699);
+    box-shadow: 10px 10px 10px 1px grey;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+a#reload{
+    margin-left: 5px;
+    font-size: 20px;
+    padding: 5px;
+}
+a#reload:hover{
+    color: white;
+}
+a.element{
+    padding: 7px 10px;
+    margin: 0 5px;
+}
+a.element:hover{
+    color: white;
+    background-color: rgb(95, 94, 94);
+    border-radius: 5px;
+}
+div.elements{
+    position: absolute;
+    float: left;
+    left: 150px;
+}
